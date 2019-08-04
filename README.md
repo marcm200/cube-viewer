@@ -12,16 +12,19 @@ Simple viewer for 3D cubes built from stacks of bitmaps.
 
 ### 1. Quick start
 
+Unzip the example cube `_example_cube.zip`.
+
 Compile the code using a C++ compiler to create the executable (assuming it is named cube-viewer.exe).
-Run it in a command prompt or by using the DOS batch files `_EXAMPLE_construct.bat` and `_EXAMPLE_view.bat` 
+
+Run it in a command prompt:
  
 `cube-viewer.exe cmd=view file=_filter400.ccb`
 
 This creates a number of files named `_filter400_*.bmp` that contain what an observer sees from different positions in space.
 
-`cube-viewer.exe cmd=construct file=bc1.ccb`
+The following command a cube file named `bc1.ccb` from images `00000NNN.bmp` in the current directory (see binary release for a set of example images).
 
-This constructs a cube file named `bc1.ccb` from images `00000NNN.bmp` in the current directory (see binary release for a set of images).
+`cube-viewer.exe cmd=construct file=bc1.ccb`
 
 To view this cube use:
 
